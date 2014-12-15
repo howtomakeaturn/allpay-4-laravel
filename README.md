@@ -77,7 +77,7 @@ return array(
 
 ###官方文件範例
 
-官方SDK文件一般訂單範例如下：
+官方SDK文件，一般訂單範例如下：
 
 ```php
 $oPayment = new AllInOne();
@@ -99,7 +99,7 @@ array_push($oPayment->Send['Items'], array('Name' => "<<產品C>>", 'Price' => (
 $oPayment->CheckOut();
 ```
 
-使用allpay-4-laravel，程式碼這樣寫即可：
+使用allpay-4-laravel，您不再需要輸入服務參數。程式碼這樣寫即可：
 
 ```php
 Allpay::instance()->Send['ReturnURL'] = "<<您要收到付款完成通知的伺服器端網址>>";
@@ -117,4 +117,4 @@ Allpay::instance()->CheckOut();
 
 ## 進階用法
 
-若您覺得``Allpay::instance()``字很多，可以使用縮寫``Allpay::i()``。
+若您覺得``Allpay::instance()``字很多，可以使用縮寫``Allpay::i()``
