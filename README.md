@@ -6,7 +6,9 @@ Allpay-4-laravel是一個將歐付寶官方提供的SDK包裝好的Service Provi
 
 歐付寶官方SDK請見[全方位金流SDK技術文件下載](http://www.allpay.com.tw/Service/Appcntr_Dwnld?Anchor=AnchorDoc)
 
+**注意：AllPay.Payment.Integration.php（整個Allpay SDK的核心檔案）並不是我所撰寫，是Allpay官網提供的SDK。所有功勞跟榮譽歸給Allpay工程師。**
 
+**此package只是用service provider與 facade將其包裝、讓它在Laravel上更易於使用。**
 
 ---
  
