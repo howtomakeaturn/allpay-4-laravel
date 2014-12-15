@@ -1,0 +1,25 @@
+{
+    "name": "howtomakeaturn/allpay-4-laravel",
+    "type": "library",
+    "description": "Allpay Service Provider for Laravel 4.",
+    "keywords": ["laravel","allpay"],
+    "homepage": "https://github.com/howtomakeaturn/allpay-4-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chuan-Hao, You",
+            "email": "howtomakeaturn@hotmail.com",
+            "homepage": "http://blog.turn.tw",
+            "role": "Developer"
+        }
+    ],
+	"autoload": {
+		"classmap": [
+            "src/"
+		],
+        "psr-0": { 
+            "Howtomakeaturn\\Allpay\\": "src/"
+         }
+	}
+    
+}
